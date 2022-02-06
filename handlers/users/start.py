@@ -2,6 +2,7 @@ from aiogram import types
 from aiogram.dispatcher.filters.builtin import CommandStart
 import imp
 import re
+from data.config import CHANNELS
 from aiogram.dispatcher.filters import Command, Text, CommandStart
 from aiogram.dispatcher import FSMContext
 from aiogram.types import Message, ReplyKeyboardRemove
